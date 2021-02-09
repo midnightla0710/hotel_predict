@@ -31,7 +31,7 @@
 
 >4.4創建train_scores儲存Train Score, Test Score(Accuracy), Precision, Sensitivity, Specificity, F1_score
 
->4.5顯示train_scores，觀察模型的各項指標，選出表現最佳者
+>4.5顯示train_scores，觀察模型的各項指標，選出表現最佳者(https://github.com/midnightla0710/hotel_predict/blob/main/data-question/predit.jpg)
 
 5.test資料集preprocessing
 >5.1觀察test未發現遺漏值
@@ -41,8 +41,7 @@
 >5.3將preprocessing後的資料儲存為test_new.csv
 
 6.承4.5最終選擇Random Forest模型，預測test.csv中訪客是否會訂房
-![image]
-(https://github.com/midnightla0710/hotel_predict/blob/main/data-question/predit.jpg)
+
 
 ## predit_produce_new_col.py: 
 1.流程大致上如predit.py所述。
@@ -55,7 +54,6 @@
 >2.3將preprocessing後的資料儲存為train_new_col.csv與test_new_col.csv
 
 3.觀察模型的各項指標後，發現Gradient Boost模型最佳。但仍劣於predit.py中Random Forest模型表現，故最終採用predit.py預測結果。
-![image]
 (https://github.com/midnightla0710/hotel_predict/blob/main/data-question/predit_produce_new_col.jpg)
 
 ## Submission.csv: 
