@@ -23,7 +23,7 @@
 3.分配train資料集，利用StratifiedKFold按比例從每個data set中抽取資料作驗證
 
 4.使用sklearn訓練模型
->4.1預計建立的模型：Naive Bayes, K Nearest, Random Forest, Decision Tree, XGBoost, Adapative Boost,  Gradient Boost, Ensemble Learning
+>4.1預計訓練的模型：Naive Bayes, K Nearest, Random Forest, Decision Tree, XGBoost, Adapative Boost,  Gradient Boost, Ensemble Learning
 
 >4.2模型變數宣告與參數設定
 
@@ -40,7 +40,7 @@
 
 >5.3將preprocessing後的資料儲存為test_new.csv
 
-6.承4.5最終選擇Random Forest模型，預測test.csv中訪客是否會訂房，在按sample_submission.csv的格式輸出預測結果Submission.csv
+6.承4.5最終選擇Random Forest模型，預測test.csv中訪客是否會訂房
 
 ## predit_produce_new_col.py: 
 1.流程大致上如predit.py所述。
@@ -52,8 +52,8 @@
 
 >2.3將preprocessing後的資料儲存為train_new_col.csv與test_new_col.csv
 
-3.觀察模型的各項指標後，發現Gradient Boost模型最佳。但劣於predit.py中Random Forest模型表現，故最終採用predit.py預測結果。
+3.觀察模型的各項指標後，發現Gradient Boost模型最佳。但仍劣於predit.py中Random Forest模型表現，故最終採用predit.py預測結果。
 
 ## Submission.csv: 
-1.以Random Forest模型，預測test.csv中訪客是否會訂房，並輸出Submission.csv
+1.以predit.py中Random Forest模型，預測test.csv中訪客是否會訂房，並輸出預測結果Submission.csv
 
