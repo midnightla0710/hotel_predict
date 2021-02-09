@@ -14,7 +14,7 @@
 1.讀取CSV檔，將資料放入dataframe
 2.train資料集preprocessing
 2.1觀察train之遺漏值為類別變數，且資料筆數佔比遠小於1%，故刪除含有NA的樣本
-2.2發現train最小值有負數，刪除不合理的樣本(ex.機率應介於0~1之間)
+2.2發現train最小值有負數，刪除不合理的樣本(ex.機率應介於0, 1之間)
 2.3將preprocessing後的資料儲存為train_new.csv
 3.分配train資料集，利用StratifiedKFold按比例從每個data set中抽取資料作驗證
 4.使用sklearn訓練模型
