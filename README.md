@@ -10,7 +10,7 @@
 2.加分題：延續上述案例，請依照以下二個混亂矩陣，評估何者較適合用於本案例的情境
 
 # Description
-# predit.py: 
+## predit.py: 
 1.讀取CSV檔，將資料放入dataframe
 
 2.train資料集preprocessing
@@ -42,7 +42,7 @@
 
 6.承4.5最終選擇Random Forest模型，預測test.csv中訪客是否會訂房，在按sample_submission.csv的格式輸出預測結果Submission.csv
 
-# predit_produce_new_col.py: 
+## predit_produce_new_col.py: 
 1.流程大致上如predit.py所述。
 
 2.僅在train與test資料集preprocessing時，選擇部分特徵進行運算以產生新特徵。
@@ -54,6 +54,6 @@
 
 3.觀察模型的各項指標後，發現Gradient Boost模型最佳。但劣於predit.py中Random Forest模型表現，故最終採用predit.py預測結果。
 
-# Submission.csv: 
-1.選擇Random Forest模型，預測test.csv中訪客是否會訂房，在按sample_submission.csv的格式輸出預測結果Submission.csv
+## Submission.csv: 
+1.以Random Forest模型，預測test.csv中訪客是否會訂房，並輸出Submission.csv
 
