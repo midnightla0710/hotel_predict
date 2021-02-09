@@ -31,7 +31,7 @@
 
 >4.4創建train_scores儲存Train Score, Test Score(Accuracy), Precision, Sensitivity, Specificity, F1_score
 
->4.5顯示train_scores，觀察模型的各項指標，選出表現最佳者(https://github.com/midnightla0710/hotel_predict/blob/main/data-question/predit.jpg)
+>4.5顯示train_scores，觀察模型的各項指標，選出表現最佳者
 
 5.test資料集preprocessing
 >5.1觀察test未發現遺漏值
@@ -40,7 +40,7 @@
 
 >5.3將preprocessing後的資料儲存為test_new.csv
 
-6.承4.5最終選擇Random Forest模型，預測test.csv中訪客是否會訂房
+6.承4.5最終選擇Random Forest模型，預測test.csv中訪客是否會訂房(https://github.com/midnightla0710/hotel_predict/blob/main/data-question/predit.jpg)
 
 
 ## predit_produce_new_col.py: 
