@@ -6,26 +6,24 @@
 
 
 請記錄資料分析、清理、建模的過程，將完整過程，清理後資料與相關程式碼上傳至個人github並提供連結或是寄至tommer.rd@gmail.com
-# Description
-1.Current data analyst job skills requirement trend.
 
-2.This is a simple project that was written in python.
-
-3.The target platform for pictures are Instagram, Yahoo and Sogou.
-
-4.The python program will save all pictures searched from the target platform.
-
-# instagram.py (input parameters): 
+# predit.py: 
 1.The user inputs the instagram ID such as 'reps_fitness_equipment'.
+
+test_new.csv
+train_new.csv
 
 2.Searching and saving all pictures from the instagram ID.
 
-# sougoupic_requests.py (input parameters): 
+# predit_produce_new_col.py: 
 1.The user inputs the keyword such as '臥推器材'.
+
+test_new_col.csv
+train_new_col.csv
 
 2.Searching and saving all pictures from keywords.
 
-# Yahoo.py (input parameters): 
+# Submission.csv: 
 1.The user inputs the keyword such as '臥推器材'. 
 
 2.Searching and saving all pictures from keywords.
