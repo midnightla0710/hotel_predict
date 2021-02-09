@@ -9,11 +9,10 @@
  
 2.加分題：延續上述案例，請依照以下二個混亂矩陣，評估何者較適合用於本案例的情境
 
-請記錄資料分析、清理、建模的過程，將完整過程，清理後資料與相關程式碼上傳至個人github並提供連結或是寄至tommer.rd@gmail.com
-
 # Description
 # predit.py: 
 1.讀取CSV檔，將資料放入dataframe
+
 2.train資料集preprocessing
 >2.1觀察train之遺漏值為類別變數，且資料筆數佔比遠小於1%，故刪除含有NA的樣本
 
@@ -22,6 +21,7 @@
 >2.3將preprocessing後的資料儲存為train_new.csv
 
 3.分配train資料集，利用StratifiedKFold按比例從每個data set中抽取資料作驗證
+
 4.使用sklearn訓練模型
 >4.1預計建立的模型：Naive Bayes, K Nearest, Random Forest, Decision Tree, XGBoost, Adapative Boost,  Gradient Boost, Ensemble Learning
 
@@ -44,6 +44,7 @@
 
 # predit_produce_new_col.py: 
 1.流程大致上如predit.py所述。
+
 2.僅在train與test資料集preprocessing時，選擇部分特徵進行運算以產生新特徵。
 >2.1創造3個新欄位(計算每個瀏覽頁面平均瀏覽時間)
 
