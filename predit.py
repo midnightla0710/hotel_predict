@@ -121,7 +121,7 @@ clf = [("Naive Bayes", g_nb, {}), \
 
 #創建stack_list儲存模型Train Score與Test Score
 stack_list = []
-#創建Evaluation儲存模型儲存Train Score, Test Score(Accuracy), Precision, Sensitivity, Specificity, F1_score
+#創建train_scores儲存模型儲存Train Score, Test Score(Accuracy), Precision, Sensitivity, Specificity, F1_score
 train_scores = pd.DataFrame(columns = ["Name", "Train Score", "Test Score(Accuracy)", "Precision", "Sensitivity", "Specificity", "F1_score"])
 
 #利用GridSearchCV自動優化參數
