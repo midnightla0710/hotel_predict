@@ -61,5 +61,5 @@
 
 # 加分題
 1.分析過程
-![]
+![](https://github.com/midnightla0710/hotel_predict/blob/main/data-question/%E8%A9%95%E4%BC%B0%E6%B7%B7%E6%B7%86%E7%9F%A9%E9%99%A3.jpg)
 2.結論：若是著重於「所有會訂房的訪客中，到底有多少人能被成功預測出會訂房」，則採用Model A；否則通常採用Model B
