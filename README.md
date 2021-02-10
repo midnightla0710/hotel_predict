@@ -54,8 +54,7 @@
 >2.3將preprocessing後的資料儲存為train_new_col.csv與test_new_col.csv
 
 3.觀察模型的各項指標後，發現Gradient Boost模型最佳。但仍劣於predit.py中Random Forest模型表現，故最終採用predit.py預測結果。
-![]
-(https://github.com/midnightla0710/hotel_predict/blob/main/data-question/predit_produce_new_col.jpg)
+![](https://github.com/midnightla0710/hotel_predict/blob/main/data-question/predit_produce_new_col.jpg)
 
 ## Submission.csv: 
 1.以predit.py中Random Forest模型，預測test.csv中訪客是否會訂房，並輸出預測結果Submission.csv
