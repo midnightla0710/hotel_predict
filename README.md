@@ -9,6 +9,8 @@
 >1.2 依照sample_submission.csv的格式提交預測結果。
  
 2.加分題：延續上述案例，請依照以下二個混亂矩陣，評估何者較適合用於本案例的情境
+![](https://github.com/midnightla0710/hotel_predict/blob/main/data-question/%E6%B7%B7%E6%B7%86%E7%9F%A9%E9%99%A3.jpg)
+
 
 # Description
 ## predit.py: 
