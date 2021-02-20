@@ -1,5 +1,6 @@
 # hotel_predict
-依照阿竹提供的Google Analytics流量統計資料，預測訪客是否會訂房。
+# 目的
+依照GA助理提供的Google Analytics流量統計資料，預測訪客是否會訂房。
 
 # 題目要求
 1.基本題：
