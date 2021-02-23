@@ -13,7 +13,7 @@
 
 
 # Description
-## predit.py: 
+## predit.py: (predit.ipynb與前者相同，僅為jupyter notebook檔案格式)
 1.讀取CSV檔，將資料放入dataframe
 
 2.train資料集preprocessing
