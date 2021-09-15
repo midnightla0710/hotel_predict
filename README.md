@@ -62,7 +62,7 @@
 ## Submission.csv: 
 1.以predit.py中Random Forest模型，預測test.csv中訪客是否會訂房，並輸出預測結果Submission.csv
 
-# 模型選用
+# 模型選用策略
 1.分析過程
 ![](https://github.com/midnightla0710/hotel_predict/blob/main/data-question/%E8%A9%95%E4%BC%B0%E6%B7%B7%E6%B7%86%E7%9F%A9%E9%99%A3.jpg)
 
