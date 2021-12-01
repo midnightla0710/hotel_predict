@@ -2,13 +2,13 @@
 # 目的
 依照GA助理提供的Google Analytics流量統計資料，預測訪客是否會訂房。
 
-# 題目要求
-1.基本題：
->1.1 請依照流量統計資料train.csv，訓練一個分類模型或回歸模型，預測test.csv中每位訪客是否會進行消費。
+# 要求
+1.預測訪客是否訂房：
+>1.1 請依照流量統計資料train.csv，訓練一個分類模型或回歸模型，預測test.csv中每位訪客是否會訂房消費。
 
 >1.2 依照sample_submission.csv的格式提交預測結果。
  
-2.兩個模型Model A與Model B之預測結果，可得到以下二個混亂矩陣，評估何者較適合用於本案例的情境。
+2.藉由Model A與Model B之預測結果，可得到二個混亂矩陣，如何評估哪個較適合用於本案例。
 ![](https://github.com/midnightla0710/hotel_predict/blob/main/data-question/%E6%B7%B7%E6%B7%86%E7%9F%A9%E9%99%A3.jpg)
 
 
